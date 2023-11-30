@@ -39,4 +39,13 @@ public class GerenciadorDeLivros {
         }
         return 0;
     }
+
+    public void exibirListaLivros() {
+        for (Livro l : acervo) {
+            System.out.println("**************************");
+            System.out.println("Livro: " + l.getTitulo());
+            System.out.println("Ano de publicação: " + l.getAnoPublicacao());
+            System.out.println("Autor: " + l.getAutor());
+        }
+    }
 }
