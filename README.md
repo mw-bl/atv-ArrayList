@@ -1,9 +1,9 @@
 **Material de apoio**:
-video-aula https://www.youtube.com/watch?v=FeLl_JsjRSo
+*video-aula https://www.youtube.com/watch?v=FeLl_JsjRSo*
 
 Desenvolva um programa em Java que permita ao usuário realizar operações básicas de gerenciamento de uma lista de livros usando um ArrayList de objetos. As operações incluirão adicionar livros, remover livros, exibir detalhes de um livro específico, listar todos os livros presentes na lista e sair do programa.
 
-Passos sugeridos:
+**Passos sugeridos**:
 
 - Crie uma classe Livro que represente um livro com os seguintes atributos: titulo, autor e anoPublicacao.
 - Crie outra classe chamada GerenciadorLivros que conterá um ArrayList de objetos da classe Livro.
