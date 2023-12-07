@@ -44,6 +44,19 @@ public class Main {
                         } else {
                             System.out.println("Livro não encontrado.");
                         }
+                    break;
+
+                case 3:
+                    System.out.println("Informe o titulo do livro:");
+
+                    titulo = ler.nextLine();
+                    int exibir = gl.ExibirLivro(titulo);
+                        if(exibir == 1) {
+                            System.out.println("Livro:");
+                        } else {
+                            System.out.println("Livro não encontrado.");
+                        }
+                    break;
             }
         }
     }
